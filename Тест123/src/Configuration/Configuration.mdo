@@ -30,4 +30,6 @@
   </languages>
   <commonModules>CommonModule.ОбщийМодуль</commonModules>
   <catalogs>Catalog.Справочник1</catalogs>
+  <documents>Document.Документ</documents>
+  <accumulationRegisters>AccumulationRegister.РегистрНакопления1</accumulationRegisters>
 </mdclass:Configuration>

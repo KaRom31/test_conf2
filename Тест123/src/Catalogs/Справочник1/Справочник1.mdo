@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20a34ea2-9304-47eb-9bdf-e0a16351a71a">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20a34ea2-9304-47eb-9bdf-e0a16351a71a">
   <producedTypes>
     <objectType typeId="2605e34f-ae5d-4d48-b924-821ad7787448" valueTypeId="26dd12cf-ac8f-420d-88e5-f5759e9e6328">
     </objectType>
@@ -34,6 +34,15 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="fd7c3a16-2a7c-4836-8f54-5a8bfdde78d5">
+      <name>СП1</name>
+      <description>С п1</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="57cd5692-64f9-443c-a809-43ef65d81827">
