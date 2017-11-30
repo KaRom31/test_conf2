@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20a34ea2-9304-47eb-9bdf-e0a16351a71a">
+  <producedTypes>
+    <objectType typeId="2605e34f-ae5d-4d48-b924-821ad7787448" valueTypeId="26dd12cf-ac8f-420d-88e5-f5759e9e6328">
+    </objectType>
+    <refType typeId="b4e07f79-c166-458a-b752-c9d27f3a117e" valueTypeId="c68928d5-173f-46df-8e04-cb5afc779ebb">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="8265bec3-7538-4e81-b3c8-79defc3a36d4" valueTypeId="09b4b52b-1e36-44ee-b6d6-063f1ad3b7dd">
+    </selectionType>
+    <listType typeId="9797ca87-c787-44ff-b48f-4cca87bbbaf7" valueTypeId="5bb8619e-8b86-44cd-8361-e078f32145c1">
+    </listType>
+    <managerType typeId="ea2ffdfb-3bed-4fc9-9e62-44abd9f10f64" valueTypeId="486b44a6-680e-4344-bf36-01ffcafd6007">
+    </managerType>
+  </producedTypes>
+  <name>Справочник1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Справочник1.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Справочник1.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="57cd5692-64f9-443c-a809-43ef65d81827">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>
